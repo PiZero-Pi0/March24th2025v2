@@ -1,0 +1,119 @@
+
+Pi0 System Specification Test Report
+===================================
+
+This report summarizes the results of testing the Pi0 system with enhanced operators
+across multiple scenarios and iterations.
+
+
+
+Scenario: Normal Conditions
+===========================
+
+Iteration 1:
+  - Mean Fused Data: 0.4881
+  - Max Fused Data: 0.8851
+  - Min Fused Data: 0.0886
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.1319
+
+Iteration 2:
+  - Mean Fused Data: 0.4881
+  - Max Fused Data: 0.8851
+  - Min Fused Data: 0.0886
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.1319
+
+Iteration 3:
+  - Mean Fused Data: 0.4881
+  - Max Fused Data: 0.8851
+  - Min Fused Data: 0.0886
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.1319
+
+
+
+Scenario: High Magnetism
+========================
+
+Iteration 1:
+  - Mean Fused Data: 0.5138
+  - Max Fused Data: 0.9670
+  - Min Fused Data: 0.1801
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.2650
+
+Iteration 2:
+  - Mean Fused Data: 0.5138
+  - Max Fused Data: 0.9670
+  - Min Fused Data: 0.1801
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.2650
+
+Iteration 3:
+  - Mean Fused Data: 0.5138
+  - Max Fused Data: 0.9670
+  - Min Fused Data: 0.1801
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.2650
+
+
+
+Scenario: Low Electricity
+=========================
+
+Iteration 1:
+  - Mean Fused Data: 0.5829
+  - Max Fused Data: 0.9248
+  - Min Fused Data: 0.1746
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.6433
+
+Iteration 2:
+  - Mean Fused Data: 0.5829
+  - Max Fused Data: 0.9248
+  - Min Fused Data: 0.1746
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.6433
+
+Iteration 3:
+  - Mean Fused Data: 0.5829
+  - Max Fused Data: 0.9248
+  - Min Fused Data: 0.1746
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.6433
+
+
+
+Scenario: Extreme Conditions
+============================
+
+Iteration 1:
+  - Mean Fused Data: 0.6517
+  - Max Fused Data: 0.9381
+  - Min Fused Data: 0.4188
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.7770
+
+Iteration 2:
+  - Mean Fused Data: 0.6517
+  - Max Fused Data: 0.9381
+  - Min Fused Data: 0.4188
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.7770
+
+Iteration 3:
+  - Mean Fused Data: 0.6517
+  - Max Fused Data: 0.9381
+  - Min Fused Data: 0.4188
+  - Alert Status: True
+  - Simulation-Fused Difference: 5.7770
+
+
+Summary of Findings
+==================
+
+Normal Conditions: 3 alerts out of 3 iterations
+High Magnetism: 3 alerts out of 3 iterations
+Low Electricity: 3 alerts out of 3 iterations
+Extreme Conditions: 3 alerts out of 3 iterations
